@@ -2,14 +2,28 @@
 <html>
 <head>
 
-	<meta charset="UTF-8">
-	<meta name="description" content="Code in the Dark - Spokane compitition">
-	<meta name="keywords" content="HTML,CSS,Code in the dark, spokane">
-	<meta name="author" content="@webmedic">
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Code in the Dark - Spokane"/>
+	<meta name="keywords" content="HTML,CSS,Code in the dark, spokane, coding competition"/>
+	<meta name="author" content="Brent Schneider"/>
 	<meta name="contact" content="info@milkshakeinteractive.com" />
 
-	<!-- @xxxxxxxxxxx{:::::::::::::::::::::::::::::::::::::::::::::::>
+	<meta property="og:title" content="Code in the Dark - Spokane"/>
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://hackspokane.com"/>
+	<meta property="og:site_name" content="Code in the Dark - Spokane" />
+	<meta property="og:description" content="A friendly front end web competition"/>
+	<meta property="og:locality" content="Spokane" />
+    <meta property="og:region" content="WA" />
+    <meta property="og:postal-code" content="99201" />
+    
+
+</head>
+
+
+	<!-- @xxxxxxxxxxx{:::::::::::::::::::::::::::::::::::::::::::>
 	
+
 		Oh...
 
 		║║╔║║╔╗ ║
@@ -24,15 +38,15 @@
 		 <NO> macros
 		 <NO> previewing your work 
 
-
-		 ┏(-_-)┛ ┗(-_-﻿ )┓ ┗(-_-)┛ ┏(-_-)┓ ┏(-_-)┛ ┗(-_-﻿ )┓ ┗(-_-)┛
-
+ 
+		 ┏(o_o)┛ ┗(-_-﻿ )┓ ┗(O_O)┛ ┏(-_-)┓ ┏(o_o)┛ ┗(o_o﻿ )┓ ┗(-_-)┛
+ 
 
 		 Register today, this is going to be one heck of a party!
 
 
 
-	<:::::::::::::::::::::::::::::::::::::::::::::::}xxxxxxxxxxx@-->
+	<::::::::::::::::::::::::::::::::::::::::::::}xxxxxxxxxxx@-->
 
 
 	<title>
@@ -40,72 +54,44 @@
 	</title>
 
     <style>
-	    html, body {
-		    height: 100%;
-		}
+	    html, body { height: 100%; margin: 0;}
 		html {
-		    overflow-y: hidden;
+			background: #000 url(images/bg-Code-in-the-dark-spokane.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		  overflow-y: hidden;
 		}
-		body {
-		    overflow-y: scroll;
-		}
-	    body {
-	        background: #000000 url('images/bg-code.png') repeat top left fixed;
-	    
-	    }
-	    h1, h2, h3 {
-	        font-family:'Helvetica Neue', Helvetica;
-	        font-weight: 800;
-	    }
-	    h1 {
-	        color: #67e29d;
-	        font-size: 4.5em;
+		body { overflow-y: scroll;}
+	    h1, h2, h3 { font-family:'Helvetica Neue', Helvetica;}
+	    h1 { color: #67e29d;
+	        font-size: 2.5em;
 	        font-weight: 600;
-	        margin:0;
-	    }
-	    h2 {
-	    	color: yellow;
-	    }
-	    h3 {
-	    	color: rgba(255, 245, 134, .8);
-	    }
+	        margin:0;}
+	    h2 { color: yellow;}
+	    h3 { color: rgba(255, 245, 134, .8);}
 	    p,ul,span {
 	        color: #e8e8e8;
 	        font-family:'Helvetica Neue', Helvetica;
 	        font-weight: 300;
 	        font-size: 18px;
-	        line-height: 1.5rem;   
-	    }
-	    .big {
-	    	font-size: 26px
-	    }
-	    .small {
-	    	font-size: 14px;	    
-	    }
-	    .dark{
-	    	color: #555;
-	    }
-	    .box {
-	        background-color: rgba(0, 0, 0, 0.8);
+	        line-height: 1.5rem; }
+	    .big  { font-size: 26px; }
+	    .small{ font-size: 14px; }
+	    .dark { color: #555; }
+	    .box  { background-color: rgba(0, 0, 0, 0.8);
 	        padding: 0;
 	        display: block;
-	        width: 700px;
-
+	        width: 800px;
 	        margin: 32px auto 20px auto;
-	        /*text-align: center;*/
-
 	        border-radius: 10px;
 			-moz-border-radius: 10px;
-			-webkit-border-radius: 10px;
-	    }
-	    .zeroborder {
-	    	border: hidden;
-	    }
+			-webkit-border-radius: 10px;}
+	    .zeroborder { border: hidden; }
 	    a {color: #ededed;}
-	    section {
-	    	padding: 10px 35px;
-	    	display: block;
-	    }
+	    section { padding: 10px 35px;
+	    	display: block; }
 	    .eventVid {
 	    	padding: 10px 35px;
 	    	display: block;
@@ -121,23 +107,24 @@
 	    	color: black;
 	    	display: inline-block;
 	    }
+	    .bright, .bright a {
+	    	color: #519780;
+	    }
 	    .items {
 			overflow: hidden; /* simple clearfix */
+			width: 780px;
 		}
 		.items .logo {
 			float: left;
-			width: 210px;
-
-		  box-sizing: border-box;
-		  background-color: rgba(0, 0, 0, .453);
-		  color: #171e42;
-		  padding: 10px;
+			color: #171e42;
+		    min-width: 150px;
+		    width: 24%;
+			float: left;
 		}
 		.btn {
 		  -webkit-border-radius: 6;
 		  -moz-border-radius: 6;
 		  border-radius: 6px;
-		  
 		  font-family: Arial;
 		  color: #000;
 		  font-size: 20px;
@@ -145,19 +132,18 @@
 		  padding: 10px 20px 10px 20px;
 		  text-decoration: none;
 		}
-		.btn:hover {
-		  background: #ffff00;
-		  text-decoration: none;
+		.btn:hover { background: #ffff00;
+		  text-decoration: none; }
+		.right { width: inherit;
+			float: right; }
+		.clear {
+			display: block;
+			float: none;
+			clear: both;
+			padding-bottom: 24px;
 		}
-		.right {
-			width: inherit;
-
-			float: right;
-		}
-		.footer{
-			padding: 60px;
-			text-align: center;
-		}
+		.footer{ padding: 60px;
+			text-align: center; }
     </style>
 
 
@@ -166,18 +152,23 @@
 <body>
 <div class="box">
     <img src="images/Spokane-code-in-the-dark_header.png" alt="Code in the Dark - Spokane WA" >
-	  <section>
+	  <section >
 
-	    <h2 id="SAVE THE DATE - May 20, 7pm PST">SAVE THE DATE - May 20, 7pm PST</h2>
+	    <h1 id="Code in the Dark - May 20, 7pm PST"> Community Event</h1>
 
-	        <p>Given only a screenshot,  Code in the Dark is a competition where frontend development meets smoke machines, lasers and sweet beats by DJ Bogue! Whether you're a full-time dev, happily self-employed or a student getting to grips with it all - we want YOU to join in Spokane's first Code in the Dark event.
-	        </p>
+	        <p>Code in the Dark is a competition where frontend development meets smoke machines, lasers and sweet beats provided by DJ Bogue!</p>
+	        <p>The contestants of each heat will be invited to compete 8 at a time, with laptops already set up for you. You'll have a simple "editor" {no plugins}, and a screen shot that you can refer to as many times as you like.</p>
+	        <p>The winner of each heat is decided by the audience. The competition continues until there's only one contestant left — the Champion of the Dark.</p>
+
+	        <a class="btn right" href="https://www.eventbrite.com/e/code-in-the-dark-spokane-tickets-24243773780" target="_blank">open registration</a>
+
+	        <span class="clear" />
 
 	   </section>
 
 
 	<div class="eventVid">        
-    	<iframe width="630" height="355" title="teaser video for Code in the Dark" class="zeroborder" src="https://www.youtube.com/embed/fYuoAhFmyZk" allowfullscreen></iframe>
+    	<iframe width="730" height="413" title="teaser video for Code in the Dark" class="zeroborder" src="https://www.youtube.com/embed/fYuoAhFmyZk" allowfullscreen></iframe>
     </div>
 
 
@@ -193,37 +184,35 @@
 	</ul>
 
 
-	<p>Attendees are welcome to cheer on their friends and watch them in real-time via mirrored screens.</p>
-
-    <p>The winner of each heat is decided by the audience. The competition continues until there's only one contestant left — the Champion of the Dark.</p>
-
-
     <p><i>You don't have to be a developer to have fun at Code in the Dark, everyone is welcome, contestant or not.</i></p>
+    <p>Attendees are welcome to cheer on their friends and watch them in real-time via mirrored screens.</p>
 
 
         <br />
 
-        <a class="btn right" href="https://www.eventbrite.com/e/code-in-the-dark-spokane-tickets-24243773780">register now</a>
+        <a class="btn " href="https://www.eventbrite.com/e/code-in-the-dark-spokane-tickets-24243773780" target="_blank">open registration</a>
 
    </section>
 
    <section>
    	<h2 id="Sponsors">Sponsors</h2>
-   	<div class="items">
-	  <div class="logo"><a href="#" target="_blank"><img src="https://placehold.it/190x138?text=SPONSOR" alt="sponsor"></a></div>
-	  <div class="logo"><a href="#" target="_blank"><img src="https://placehold.it/190x138?text=SPONSOR" alt="sponsor"></a></div>
-	  <div class="logo"><a href="#" target="_blank"><img src="https://placehold.it/190x138?text=SPONSOR" alt="sponsor"></a></div>
-	</div>
+   	
+	
 	<div class="items">
-	  <div class="logo"><a href="http://www.14four.com/" target="_blank"><img src="images/logo-14four.png" alt="sponsor - 14four"></a></div>
-	  <div class="logo"><a href="#" target="_blank"><img src="https://placehold.it/190x138?text=SPONSOR" alt="sponsor"></a></div>
-	  <div class="logo"><a href="#" target="_blank"><img src="https://placehold.it/190x138?text=SPONSOR" alt="sponsor"></a></div>
-	</div>
-	<div class="items">
-	  <div class="logo"><a href="http://terrainspokane.com/" target="_blank"><img src="images/logo-terrain.png" alt="sponsor - Terrain"></a></div>
+	  <div class="logo"><a href="http://www.14four.com/" target="_blank" title="Opens in new window"><img src="images/logo-14four.png" alt="sponsor - 14four"></a></div>
 	  <div class="logo"><a href="http://benniditosbrewpub.com/" target="_blank"><img src="images/logo-benniditos.png" alt="sponsor - Benniditos"></a></div>
 	  <div class="logo"><a href="http://www.tinbendercraftdistillery.com/" target="_blank"><img src="images/logo-tinbender.png" alt="sponsor - tinbender"></a></div>
+	  <div class="logo"><a href="#"><img src="https://placehold.it/170x123?text=SPONSOR" alt="sponsor"></a></div>
+
 	</div>
+	<!-- <div class="items">
+	  <div class="logo"><a href="#"><img src="https://placehold.it/170x123?text=SPONSOR" alt="sponsor"></a></div>
+	  <div class="logo"><a href="#"><img src="https://placehold.it/170x123?text=SPONSOR" alt="sponsor"></a></div>
+	  <div class="logo"><a href="#"><img src="https://placehold.it/170x123?text=SPONSOR" alt="sponsor"></a></div>
+	  <div class="logo"><a href="#"><img src="https://placehold.it/170x123?text=SPONSOR" alt="sponsor"></a></div>
+	</div> -->
+	<br />
+	<p class='bright'>Interested in becoming a sponsor? contact <a href="mailto:info@milkshakeinteractive.com">info@milkshakeinteractive.com</a></p>
    </section>
 
    <section>
@@ -231,9 +220,12 @@
 
      <p>Terrain space in the Washington Cracker Co. Building - 304 W Pacific Ave</p>
 
-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.496108398087!2d-117.41892468436778!3d47.6553579791879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549e18622523cc95%3A0x63becdcfdc3dd1bf!2s304+W+Pacific+Ave%2C+Spokane%2C+WA+99201!5e0!3m2!1sen!2sus!4v1458793035707" width="630" height="250" title="location: 304 W Pacific Ave" style="border:0" allowfullscreen></iframe>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.496108398087!2d-117.41892468436778!3d47.6553579791879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549e18622523cc95%3A0x63becdcfdc3dd1bf!2s304+W+Pacific+Ave%2C+Spokane%2C+WA+99201!5e0!3m2!1sen!2sus!4v1458793035707" width="730" height="313" title="location: 304 W Pacific Ave" style="border:0" allowfullscreen></iframe>
 
    </section>
+
+
+
 
 
 
