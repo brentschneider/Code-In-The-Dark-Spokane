@@ -1,259 +1,417 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
-	<meta charset="UTF-8"/>
-	<meta name="description" content="Code in the Dark - Spokane"/>
-	<meta name="keywords" content="HTML,CSS,Code in the dark, spokane, coding competition"/>
-	<meta name="author" content="Brent Schneider"/>
-	<meta name="contact" content="info@milkshakeinteractive.com" />
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Code in the Dark - Spokane"/>
+    <meta name="keywords" content="#CitDSpokane,Code in the Dark, Spokane, #INT, #PNW, coding competition"/>
+    <meta name="author" content="V1 Brent Schneider & V2 Brenden Hawthorne"/>
+    <meta name="contact" content="info@milkshakeinteractive.com" />
+    <meta name="url" content="http://hackspokane.com" />
 
-	<meta property="og:title" content="Code in the Dark - Spokane"/>
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://hackspokane.com"/>
-	<meta property="og:site_name" content="Code in the Dark - Spokane" />
-	<meta property="og:description" content="A friendly front end web competition"/>
-	<meta property="og:locality" content="Spokane" />
+
+    <!-- @xxxxxxxxxxx{:::::::::::::::::::::::::::::::::::::::::::>
+
+      Oh...
+
+      ║║╔║║╔╗ ║
+      ╠╣╠║║║║ ║
+      ║║╚╚╚╚╝ O
+
+      yup thats what this Competition is all about -
+      coding, going mano a mano against your comrads armed
+      with only an editor, html, css and a screen shot.
+
+       <NO> frameworks
+       <NO> macros
+       <NO> previewing your work
+
+       ┏(o_o)┛ ┗(-_-﻿ )┓ ┗(O_O)┛ ┏(-_-)┓ ┏(o_o)┛ ┗(o_o﻿ )┓ ┗(-_-)┛
+
+    <::::::::::::::::::::::::::::::::::::::::::::}xxxxxxxxxxx@-->
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Code in the Dark - Spokane"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://hackspokane.com"/>
+    <meta property="og:site_name" content="Code in the Dark - Spokane" />
+    <meta property="og:description" content="A friendly front end web competition"/>
+    <meta property="og:locality" content="Spokane" />
     <meta property="og:region" content="WA" />
     <meta property="og:postal-code" content="99201" />
-    
-
-</head>
 
 
-	<!-- @xxxxxxxxxxx{:::::::::::::::::::::::::::::::::::::::::::>
-	
+    <title>Code in the Dark Spokane</title>
 
-		Oh...
-
-		║║╔║║╔╗ ║
-		╠╣╠║║║║ ║
-		║║╚╚╚╚╝ O
-
-		yup thats what this Competition is all about - 
-		coding, going mano a mano against your comrads armed
-		with only an editor, html, css and a screen shot.
-
-		 <NO> frameworks
-		 <NO> macros
-		 <NO> previewing your work 
-
- 
-		 ┏(o_o)┛ ┗(-_-﻿ )┓ ┗(O_O)┛ ┏(-_-)┓ ┏(o_o)┛ ┗(o_o﻿ )┓ ┗(-_-)┛
- 
-
-		 Register today, this is going to be one heck of a party!
-
-
-
-	<::::::::::::::::::::::::::::::::::::::::::::}xxxxxxxxxxx@-->
-
-
-	<title>
-			Code in The Dark - Spokane
-	</title>
-
-    <style>
-	    html, body { height: 100%; margin: 0;}
-		html {
-			background: #000 url(images/bg-Code-in-the-dark-spokane.jpg) no-repeat center center fixed; 
-		  -webkit-background-size: cover;
-		  -moz-background-size: cover;
-		  -o-background-size: cover;
-		  background-size: cover;
-		  overflow-y: hidden;
-		}
-		body { overflow-y: scroll;}
-	    h1, h2, h3 { font-family:'Helvetica Neue', Helvetica;}
-	    h1 { color: #67e29d;
-	        font-size: 2.5em;
-	        font-weight: 600;
-	        margin:0;}
-	    h2 { color: yellow;}
-	    h3 { color: rgba(255, 245, 134, .8);}
-	    p,ul,span {
-	        color: #e8e8e8;
-	        font-family:'Helvetica Neue', Helvetica;
-	        font-weight: 300;
-	        font-size: 18px;
-	        line-height: 1.5rem; }
-	    .big  { font-size: 26px; }
-	    .small{ font-size: 14px; }
-	    .dark { color: #555; }
-	    .box  { background-color: rgba(0, 0, 0, 0.8);
-	        padding: 0;
-	        display: block;
-	        width: 800px;
-	        margin: 32px auto 20px auto;
-	        border-radius: 10px;
-			-moz-border-radius: 10px;
-			-webkit-border-radius: 10px;}
-	    .zeroborder { border: hidden; }
-	    a {color: #ededed;}
-	    section { padding: 10px 35px;
-	    	display: block; }
-	    .eventVid {
-	    	padding: 10px 35px;
-	    	display: block;
-	    	width: auto;
-	    	background-color: rgba(255, 255, 254, .254);
-	    	padding-top: 30px;
-	    	padding-bottom: 30px;
-	    }
-	    .highlight {
-	    	background-color: rgba(255, 245, 134, .2);
-	    	padding: 8px;
-	    	width: inherit;
-	    	color: black;
-	    	display: inline-block;
-	    }
-	    .bright, .bright a {
-	    	color: #519780;
-	    }
-	    .items {
-			overflow: hidden; /* simple clearfix */
-			width: 780px;
-		}
-		.items .logo {
-			float: left;
-			color: #171e42;
-		    min-width: 150px;
-		    width: 24%;
-			float: left;
-		}
-		.btn {
-		  -webkit-border-radius: 6;
-		  -moz-border-radius: 6;
-		  border-radius: 6px;
-		  font-family: Arial;
-		  color: #000;
-		  font-size: 20px;
-		  background: #20edba;
-		  padding: 10px 20px 10px 20px;
-		  text-decoration: none;
-		}
-		.btn:hover { background: #ffff00;
-		  text-decoration: none; }
-		.right { width: inherit;
-			float: right; }
-		.clear {
-			display: block;
-			float: none;
-			clear: both;
-			padding-bottom: 24px;
-		}
-		.footer{ padding: 60px;
-			text-align: center; }
-    </style>
+    <!-- Compiled Stylesheet -->
+    <link rel="stylesheet" href="css-min/styles.min.css">
+    <link rel="stylesheet" href="css-min/justifiedGallery.min.css">
+    <link href="css-min/lightbox.min.css" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/img/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 
 
-</head>
+    </head>
 
 <body>
-<div class="box">
-    <img src="images/Spokane-code-in-the-dark_header.png" alt="Code in the Dark - Spokane WA" >
-	  <section >
+    <div class="ui center aligned grid container">
+        <div class="sixteen wide column">
+            <a href="index.html"><img src="img/scitdhero.png" alt="" class="ui fluid image"></a>
+        </div>
 
-	    <h1 id="Code in the Dark - May 20, 7pm PST"> Community Event</h1>
+      <div class="wide mobile ten wide tablet eleven wide computer column">
+      <section class="editor fluid">
+          <span class='editor-top'>
+          <ul class="controls">
+            <li>
+                <i class="selected radio icon"></i>
+            </li>
+            <li>
+                <i class="radio icon"></i>
+            </li>
+            <li>
+              <i class="radio icon"></i>
+            </li>
+          </ul>
+          </span>
 
-	        <p>Code in the Dark is a competition where frontend development meets smoke machines, lasers and sweet beats provided by DJ Bogue!</p>
-	        <p>The contestants of each heat will be invited to compete 8 at a time, with laptops already set up for you. You'll have a simple "editor" {no plugins}, and a screen shot that you can refer to as many times as you like.</p>
-	        <p>The winner of each heat is decided by the audience. The competition continues until there's only one contestant left — the Champion of the Dark.</p>
+          <h1>Congratulations to the 2016 Champion of Code, <a href="https://twitter.com/britzben">Ben Britz</a>!<span id="curserblink" class="blink">|</span> </h1>
 
-	        <a class="btn right" href="https://www.eventbrite.com/e/code-in-the-dark-spokane-tickets-24243773780" target="_blank">open registration</a>
-
-	        <span class="clear" />
-
-	   </section>
-
-
-	<div class="eventVid">        
-    	<iframe width="730" height="413" title="teaser video for Code in the Dark" class="zeroborder" src="https://www.youtube.com/embed/fYuoAhFmyZk" allowfullscreen></iframe>
+      </section>
     </div>
 
+<div class="fourteen wide mobile fourteen wide tablet twelve wide computer column">
 
-  <section>
+    <p>"Code in the Dark" is a nighttime frontend development competition with a party like atmosphere, including a DJ. The contestants of each heat will be invited to compete 6 at a time, with laptops already set up for you. You'll have a simple
+        "editor" {no plugins}, and a screen shot that you can refer to as many times as you like. The winner of each heat is decided by the audience. The competition continues until there's only one contestant left — the Champion of Code</p>
+</div>
 
-	<h2 id="The rules of the competition are simple:">The rules of the competition are simple<h2>
-
-	<ul>
-		<li>One screenshot, view it as much as you want</li>
-		<li>15 minutes per round of coding (no previews, you're in the dark!)</li>
-		<li>Public previews when the time's up</li>
-		<li>One Champion!</li>
-	</ul>
+<div class="fourteen wide mobile fourteen wide tablet twelve wide computer column">
 
 
-    <p><i>You don't have to be a developer to have fun at Code in the Dark, everyone is welcome, contestant or not.</i></p>
-    <p>Attendees are welcome to cheer on their friends and watch them in real-time via mirrored screens.</p>
+    <h4>Get the latest in INT news & event info!</h4>
 
+    <div id="mc_embed_signup">
+    <form action="//milkshakeinteractive.us13.list-manage.com/subscribe/post?u=5757eb1827e76b0def00e5cb1&amp;id=0b24a9044b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
 
-        <br />
-
-        <a class="btn " href="https://www.eventbrite.com/e/code-in-the-dark-spokane-tickets-24243773780" target="_blank">open registration</a>
-
-   </section>
-
-   <section>
-   	<h2 id="Sponsors">Sponsors</h2>
-   	
-	
-	<div class="items">
-	  <div class="logo"><a href="http://www.14four.com/" target="_blank" title="Opens in new window"><img src="images/logo-14four.png" alt="sponsor - 14four"></a></div>
-	  <div class="logo"><a href="http://benniditosbrewpub.com/" target="_blank"><img src="images/logo-benniditos.png" alt="sponsor - Benniditos"></a></div>
-	  <div class="logo"><a href="http://www.tinbendercraftdistillery.com/" target="_blank"><img src="images/logo-tinbender.png" alt="sponsor - tinbender"></a></div>
-	  <div class="logo"><a href="#"><img src="https://placehold.it/170x123?text=SPONSOR" alt="sponsor"></a></div>
-
-	</div>
-	<!-- <div class="items">
-	  <div class="logo"><a href="#"><img src="https://placehold.it/170x123?text=SPONSOR" alt="sponsor"></a></div>
-	  <div class="logo"><a href="#"><img src="https://placehold.it/170x123?text=SPONSOR" alt="sponsor"></a></div>
-	  <div class="logo"><a href="#"><img src="https://placehold.it/170x123?text=SPONSOR" alt="sponsor"></a></div>
-	  <div class="logo"><a href="#"><img src="https://placehold.it/170x123?text=SPONSOR" alt="sponsor"></a></div>
-	</div> -->
-	<br />
-	<p class='bright'>Interested in becoming a sponsor? contact <a href="mailto:info@milkshakeinteractive.com">info@milkshakeinteractive.com</a></p>
-   </section>
-
-   <section>
-     <h2 id="Location">Location</h2>
-
-     <p>Terrain space in the Washington Cracker Co. Building - 304 W Pacific Ave</p>
-
-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.496108398087!2d-117.41892468436778!3d47.6553579791879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549e18622523cc95%3A0x63becdcfdc3dd1bf!2s304+W+Pacific+Ave%2C+Spokane%2C+WA+99201!5e0!3m2!1sen!2sus!4v1458793035707" width="730" height="313" title="location: 304 W Pacific Ave" style="border:0" allowfullscreen></iframe>
-
-   </section>
-
-
-
-
-
-
-   <section class="footer">
-
-   <h3 id="Organized by">Organized by:</h3>
-
-   		<span><span class="big">Inland Northwest Technologists</span> <br /> Find an event of interest on our <a href="https://www.facebook.com/InlandNorthwestTechnologists/" target="_blank">facebook</a> page</span>
-
-	<h3 id="Special Thanks to">Special Thanks to:</h3>
-	
-		<p><span class="big">Tictail</span><br />
-		<br />
-		For other official events visit <a href="http://codeinthedark.com/" target="_blank">Code in the Dark</a></p>
-
-		<p class="small dark">This is a community event organised by INT with the permission of Tictail. The use of the Code in the Dark brand is in good faith and any requests for external use should seek the permission of Tictail directly.</p>
-
-</section>
+    	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-Mail Me About Awesome Events" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5757eb1827e76b0def00e5cb1_0b24a9044b" tabindex="-1" value=""></div>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="ui button primary teal inverted"></div>
+        </div>
+    </form>
+    </div>
 
 </div>
-    <script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-75448053-1', 'auto');
-	  ga('send', 'pageview');
+        <div class="sixteen wide column">
+          <div id="gallery">
+              <a href="img/gal-photos/img1.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img1.jpg" />
+              </a>
+              <a href="img/gal-photos/img2.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img2.jpg" />
+              </a>
+              <a href="img/gal-photos/img3.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img3.jpg" />
+              </a>
+              <a href="img/gal-photos/img4.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img4.jpg" />
+              </a>
+              <a href="img/gal-photos/img5.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img5.jpg" />
+              </a>
+              <a href="img/gal-photos/img6.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img6.jpg" />
+              </a>
+              <a href="img/gal-photos/img7.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img7.jpg" />
+              </a>
+              <a href="img/gal-photos/img8.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img8.jpg" />
+              </a>
+              <a href="img/gal-photos/img9.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img9.jpg" />
+              </a>
+              <a href="img/gal-photos/img10.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img10.jpg" />
+              </a>
+              <a href="img/gal-photos/img11.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img11.jpg" />
+              </a>
+              <a href="img/gal-photos/img12.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img12.jpg" />
+              </a>
+              <a href="img/gal-photos/img13.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img13.jpg" />
+              </a>
+              <a href="img/gal-photos/img14.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img14.jpg" />
+              </a>
+              <a href="img/gal-photos/img15.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img15.jpg" />
+              </a>
+              <a href="img/gal-photos/img16.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img16.jpg" />
+              </a>
+              <a href="img/gal-photos/img17.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img17.jpg" />
+              </a>
+              <a href="img/gal-photos/img18.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img18.jpg" />
+              </a>
+              <a href="img/gal-photos/img19.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img19.jpg" />
+              </a>
+              <a href="img/gal-photos/img20.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img20.jpg" />
+              </a>
+              <a href="img/gal-photos/img21.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img21.jpg" />
+              </a>
+              <a href="img/gal-photos/img22.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img22.jpg" />
+              </a>
+              <a href="img/gal-photos/img23.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img23.jpg" />
+              </a>
+              <a href="img/gal-photos/img24.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img24.jpg" />
+              </a>
+              <a href="img/gal-photos/img25.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img25.jpg" />
+              </a>
+              <a href="img/gal-photos/img26.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img26.jpg" />
+              </a>
+              <a href="img/gal-photos/img27.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img27.jpg" />
+              </a>
+              <a href="img/gal-photos/img28.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img28.jpg" />
+              </a>
+              <a href="img/gal-photos/img29.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img29.jpg" />
+              </a>
+              <a href="img/gal-photos/img30.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img30.jpg" />
+              </a>
+              <a href="img/gal-photos/img31.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img31.jpg" />
+              </a>
+              <a href="img/gal-photos/img32.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img32.jpg" />
+              </a>
+              <a href="img/gal-photos/img33.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img33.jpg" />
+              </a>
+              <a href="img/gal-photos/img34.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img34.jpg" />
+              </a>
+              <a href="img/gal-photos/img35.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img35.jpg" />
+              </a>
+              <a href="img/gal-photos/img36.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img36.jpg" />
+              </a>
+              <a href="img/gal-photos/img37.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img37.jpg" />
+              </a>
+              <a href="img/gal-photos/img38.jpg" data-lightbox="gallery">
+                  <img alt="Title 2" src="img/gal-tn/img38.jpg" />
+              </a>
+              <a href="img/gal-photos/img39.jpg" data-lightbox="gallery">
+                  <img alt="Title 1" src="img/gal-tn/img39.jpg" />
+              </a>
+
+
+          </div>
+    <p>photography by <a href="https://www.facebook.com/Cody.R.Schroeder?fref=ts">Cody Schroeder </a></p>
+</div>
+        <div class="fourteen wide mobile twelve wide tablet ten wide computer column">
+            <h3>The rules of the competition are simple</h3>
+            <ol>
+                <li>One screenshot, view it as much as you want</li>
+                <li>15 minutes per round of coding (no previews, you're in the dark!)</li>
+                <li>Public previews when the time's up</li>
+            </ol>
+            <h2>One champion!</h2>
+            <p>You don't have to be a developer to have fun at Code in the Dark, everyone is welcome, contestant or not.</p>
+
+            <p>Attendees are welcome to cheer on their friends and watch them in real-time via mirrored screens.</p>
+        </div>
+        <div class="sixteen wide column">
+    <h1>Thank You for Your Sponsorship </h1>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column">
+    <a href="http://www.workatfellow.com/" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-fellow.svg" alt="Sponsor - Fellow"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="http://www.14four.com/" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-14four.svg" alt="Sponsor - 14four"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="https://gravityjack.com/" target="_blank"><img class="ui fluid image" src="img/sponsors/logo-gravityjack.svg" alt="Sponsor - GravityJack"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="http://www.risklens.com/" target="_blank"><img class="ui fluid image" src="img/sponsors/logo-Risklens.svg" alt="Sponsor - Risklens"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <img class="ui fluid image" src="img/sponsors/logo-Synergy.svg" alt="Sponsor - Synergy"></div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="http://bhw1.com" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-BHW1.svg" alt="Sponsor - BHW1"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="https://codepen.io/" target="_blank"><img class="ui fluid image" src="img/sponsors/logo-CodePen.svg" alt="Sponsor - CodePen"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="https://www.ziplineinteractive.com/" target="_blank"><img class="ui fluid image" src="img/sponsors/logo-Zipline.svg" alt="Sponsor - Zipline"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="http://milkshakeinteractive.com" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-Milkshakeinteractive.svg" alt="Sponsor - Milkshake Interactive"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="https://uxiliary.com/" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-Uxiliary.svg" alt="Sponsor - Uxiliary"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="http://www.tinbendercraftdistillery.com/" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-tinbender.svg" alt="Sponsor - Tinbender"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="https://www.whitestonewinery.com/" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-LRWCo.svg" alt="Sponsor - Lake Roosevelt Wine Co"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="http://unifestnorthwest.com/" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-UnifestCo.svg" alt="Sponsor - Unifest Co"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="http://www.openeye.net/" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-Openeye.svg" alt="Sponsor - Open Eye"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="http://www.adobe.com/" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-Adobe.svg" alt="Sponsor - Adobe"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="https://aws.amazon.com/" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-aws.svg" alt="Sponsor - AWS"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="https://www.limelyte.com/" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-Limelyte.svg" alt="Sponsor - Limelyte"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="http://ernestmena.com/" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-EMID.svg" alt="Sponsor - Ernest Mena"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="http://benniditosbrewpub.com/" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-benniditos.svg" alt="Sponsor - Benniditos"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="http://roasthousecoffee.com" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-RoastHouse.svg" alt="Sponsor - Roast House Coffee"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="http://hammercoffee.com/" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-ThomasHammer.svg" alt="Sponsor - Thomas Hammer"></a>
+</div>
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="http://thatredhead.me" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-ThatRedHead.svg" alt="Sponsor - That Red Head"></a>
+</div>
+
+<div class=" five wide mobile five wide tablet three wide computer column ">
+    <a href="https://www.facebook.com/InlandNorthwestTechnologists/" target="_blank" title="Visit sponsor"><img class="ui fluid image" src="img/sponsors/logo-INT.svg" alt="Sponsor - INT"></a>
+</div>
+
+        <div class="sixteen wide column">
+            <h1>Now accepting 2017 sponsors</h1>
+        </div>
+        <div class="sixteen wide column bttn">
+            <a href="mailto:info@milkshakeinteractive.com">
+                <button class="ui inverted huge primary teal button">
+                    I'm Intrested!
+                </button>
+            </a>
+        </div>
+        <div class="sixteen wide column">
+    <h1>Want to try your hand with the challenges?</h1>
+    <p>Spokane Code in the Dark Challenges</p>
+</div>
+<div class="ui center aligned stackable grid bttn">
+    <div class="five wide column">
+        <a href="round1/index.html">
+            <button class="ui inverted huge teal button">
+                Round 1 Download
+            </button>
+        </a>
+    </div>
+
+    <div class="five wide column">
+        <a href="round2/index.html">
+            <button class="ui inverted huge teal button">
+                Round 2 Download
+            </button>
+        </a>
+    </div>
+    <div class="five wide column">
+        <a href="round3/index.html">
+            <button class="ui inverted huge teal button">
+                Round 3 Download
+            </button>
+        </a>
+    </div>
+
+</div>
+        <div class="sixteen wide column">
+    <h2> Organized by: </h2>
+</div>
+<div class="sixteen wide column">
+    <a href="https://www.facebook.com/InlandNorthwestTechnologists/">
+        <img src="img/sponsors/logo-INT.svg" alt="Int logo">
+    </a>
+    <h3> Find an event of interest on our <a href="https://www.facebook.com/InlandNorthwestTechnologists/">facebook</a> page </h3>
+</div>
+
+<div class="fourteen wide mobile fourteen wide tablet eight wide computer column">
+    <h2> Special thanks to: </h2>
+
+    <h3> Tictail & Fellow </h3>
+
+    <p>For other official events visit <a href="http://codeinthedark.com">Code in the Dark</a> </p>
+
+    <p> This is a community event organized by INT with the permission of Tictail. The use of the Code in the Dark brand is in good faith and any requests for external use should seek the permission of Tictail directly.
+    </p>
+</div>
+</div>
+<div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js-min/jquery-2.2.2-min.js"><\/script>')
 </script>
-</body>
-</html>
+<script src "js-min/jquery.justifiedGallery.min.js"></script>
+<script src="js-min/scripts.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75448053-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+    </body>
+
+    </html>
