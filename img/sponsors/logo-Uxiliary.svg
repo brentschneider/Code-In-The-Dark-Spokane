@@ -1,5 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="170" height="123" viewBox="-1 -40 170 123">
-  <defs>
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-1 -35 170 123" style="enable-background:-1 -35 170 123;" xml:space="preserve">
+
     <style>
       .a {
         fill: #4b6c6e;
@@ -14,11 +16,12 @@
       }
 
       .d {
-        fill: #ededed;
+        fill: #333;
       }
     </style>
-  </defs>
-  <title>logo-Uxiliary</title>
+
+  <title>Sponsor Uxiliary</title>
+
   <g>
     <polygon class="a" points="35.64 21.19 29.85 21.19 38.34 35.96 22.36 35.96 25.01 40.54 46.8 40.54 35.64 21.19"/>
     <polygon class="b" points="8.58 35.96 17.09 21.19 11.18 21.19 0 40.54 25.01 40.54 22.36 35.96 8.58 35.96"/>

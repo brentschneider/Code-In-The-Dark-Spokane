@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="170" height="123" viewBox="-20 0 170 123">
-  <defs>
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-20 0 170 123" style="enable-background:50 0 170 123;" xml:space="preserve">
     <style>
       .a {
-        fill: #fff;
+        fill: #333;
       }
     </style>
-  </defs>
   <title>logo-INT</title>
   <g>
     <path class="a" d="M83.73,0.34A61.07,61.07,0,1,0,144.8,61.42,61.07,61.07,0,0,0,83.73.34Zm0,117.19a56.11,56.11,0,1,1,56.11-56.11A56.11,56.11,0,0,1,83.73,117.53Z" transform="translate(-22.65 -0.34)"/>

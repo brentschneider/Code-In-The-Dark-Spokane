@@ -1,0 +1,280 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Inconsolata', monospace, sans-serif;
+  font-size: 2em;
+  line-height: 2.645rem;
+  color: #333;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Raleway', serif ;
+  font-weight: 100;
+  line-height: 1.1;
+  color: inherit;
+}
+/*===================================*/
+.jumbotron {
+  margin-bottom: 0;
+}
+/*adding extra spacing*/
+section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.footer-darker {
+  background-color: #233140;
+  color: #ed33ed;
+}
+
+.footer-below {
+    padding: 25px 0;
+    background-color: #344250;
+}
+
+.image-bg-fixed-height {
+    background: url(http://lorempixel.com/g/1920/400/) no-repeat center center scroll;
+    height: 400px;
+}
+
+/* custom sections*/
+.ribbon {
+    background-color: #252525;
+    color: #FFFFFF;
+    height: 65px;
+    padding: 16px;
+}
+
+.row {
+  padding-left: 1em;
+}
+
+.terminal {
+  color: #48d8a0;
+  padding-top: 4px;
+}
+
+.cta {
+  color: #fff;
+  font-size: font-size: 80px;
+}
+
+.sponsor {
+    background: #18BC9C;
+    color: #fff;
+}
+.space {
+  padding: 60px 0;
+  padding-left: .5em;
+}
+
+/*===================================*/
+/* buttons */
+.btn-outline {
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+.btn-outline:hover{
+  color:#48d8a0;
+}
+
+.btn-outline-green {
+    color: #48d8a0;
+    font-size: 20px;
+    border: 2px solid #48d8a0;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+.btn-outline-green:hover{
+  color:#48d8a0;
+}
+
+
+
+.modal-dialog {width:600px;}
+.thumbnail {margin-bottom:6px;}
+
+
+/*===================================*/
+/*Section headers*/
+
+hr.star-light {
+    border-color: #fff;
+}
+hr.star-light:after {
+    background-color: #18BC9C;
+    color: #fff;
+}
+hr.star-light {
+    padding: 0;
+    border: none;
+    border-top: #fff solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+hr.star-light:after {
+    content: "\f184";
+    font-family: FontAwesome;
+    display: inline-block;
+    border: #18BC9C;
+    position: relative;
+    top: -18px;
+    font-size: 2em;
+    padding: 0 .25em;
+}
+
+
+hr.star-dark {
+    border-color: #fff;
+}
+hr.star-dark:after {
+    background-color: #fff;
+    color: #333;
+}
+
+hr.star-dark {
+    padding: 0;
+    border: none;
+    border-top: #333 solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+
+hr.star-dark:after {
+    content: "\f121";
+    font-family: FontAwesome;
+    display: inline-block;
+    border: #fff;
+    position: relative;
+    top: -18px;
+    font-size: 2em;
+    padding: 0 .25em;
+}
+
+
+/*===================================*/
+/*Hover over title sections*/
+
+.special-item {
+    margin: 0 0 30px;
+}
+
+.special-item .special-link {
+    display: block;
+    position: relative;
+    max-width: 325px;
+    margin: 0 auto;
+}
+
+.special-item .special-link .caption {
+    background: rgba(24,188,156,.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    z-index: 34;
+}
+
+ .special-wrapper {
+  overflow: hidden;
+  position: relative !important;
+  cursor: pointer;
+}
+ .special-wrapper .caption {
+  position: absolute;
+  width: 100%;
+  height: 65px;
+  bottom: -20px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+ .special-wrapper .caption .caption-bg {
+  background: #41C4AB;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+ .special-wrapper .caption .caption-text {
+  color: white;
+  position: relative;
+  z-index: 500;
+  padding: 10px 8px;
+}
+ .special-wrapper .caption .caption-text a.text-title {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.special-wrapper:hover .caption {
+  bottom: 0px;
+}
+
+/*===================================*/
+
+.btn-social {
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+    width:50px;
+    height:50px;
+}
+
+.btn-social-outline {
+    color: #333;
+    font-size: 20px;
+    border: 2px solid #333;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+    margin-top: 15px;
+}
+
+
+/*===================================*/
+/*Font awesome icons*/
+
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-fw {
+    width: 1.28571429em;
+    text-align: center;
+}

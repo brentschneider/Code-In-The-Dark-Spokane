@@ -5,7 +5,7 @@
 
 ## Contestants
 
-You'll have a simple "editor" *no plugins or intellisense*,  and a screen shot that you can refer to as many times as you like.
+
 
 The winner of each heat is decided by the audience. The competition continues until there's only one contestant left — the Champion of Code
 
