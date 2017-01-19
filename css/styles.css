@@ -37,6 +37,7 @@ h6,
 section {
   padding-top: 2em;
   padding-bottom: 2em;
+  background: #000;
 }
 
 .footer-darker {
@@ -50,7 +51,7 @@ section {
 }
 
 .image-bg-fixed-height {
-    background: url(http://lorempixel.com/g/1920/400/) no-repeat center center scroll;
+    background: url(../img/gallery/img11bg.jpg) no-repeat center center scroll;
     height: 400px;
 }
 
