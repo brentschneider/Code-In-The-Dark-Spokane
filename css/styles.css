@@ -40,6 +40,11 @@ section {
   background: #000;
 }
 
+.sub-email-input {
+  margin-top: 15px;
+  padding: 8px 50px;
+}
+
 .footer-darker {
   background-color: #233140;
   color: #ed33ed;
@@ -53,7 +58,7 @@ section {
 .image-bg-fixed-height {
     background: url(../img/gallery/img11.jpg) no-repeat center center scroll;
     background-size: cover;
-    height: 400px;
+    height: 450px;
 }
 
 /* custom sections*/
@@ -62,6 +67,20 @@ section {
     color: #FFFFFF;
     height: 65px;
     padding: 16px;
+}
+
+.ribbon-med {
+  background-color: #252525;
+  color: #FFFFFF;
+  height: 130px;
+  padding: 16px;
+}
+
+.ribbon-lrg {
+  background-color: #252525;
+  color: #FFFFFF;
+  height: 200px;
+  padding: 16px;
 }
 
 .row {
