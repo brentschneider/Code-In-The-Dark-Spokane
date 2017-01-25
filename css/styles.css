@@ -69,18 +69,12 @@ section {
     padding: 16px;
 }
 
-.ribbon-med {
-  background-color: #252525;
-  color: #FFFFFF;
+.height-med {
   height: 130px;
-  padding: 16px;
 }
 
-.ribbon-lrg {
-  background-color: #252525;
-  color: #FFFFFF;
+.height-lrg {
   height: 200px;
-  padding: 16px;
 }
 
 .row {
