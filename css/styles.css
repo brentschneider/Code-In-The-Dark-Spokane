@@ -32,7 +32,15 @@ h6,
 /*===================================*/
 .jumbotron {
   margin-bottom: 0;
+
+  background: url(../img/background.png) no-repeat center center scroll;
+  background-size: cover;
+  height: 450px;
+
+  color: #fff;
 }
+
+
 /*adding extra spacing*/
 section {
   padding-top: 2em;
