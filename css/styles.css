@@ -64,7 +64,7 @@ section {
 }
 
 .image-bg-fixed-height {
-    background: url(../img/gallery/img11.jpg) no-repeat center center scroll;
+    background: url(../img/background-trophy.png) no-repeat center center scroll;
     background-size: cover;
     height: 450px;
 }
@@ -95,8 +95,16 @@ section {
 }
 
 .cta {
-  color: #fff;
-  font-size: font-size: 80px;
+  color: #def;
+
+}
+
+.cta h1 {
+  font-weight: bold;
+}
+
+.cta h2 {
+  font-weight: bold;
 }
 
 .sponsor {
