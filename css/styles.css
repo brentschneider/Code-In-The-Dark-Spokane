@@ -33,11 +33,9 @@ h6,
 .jumbotron {
   margin-bottom: 0;
   background-color: #29abed;
-
   background: url(../img/background.png) no-repeat center center scroll;
   background-size: cover;
   height: 450px;
-
   color: #fff;
 }
 
@@ -75,7 +73,7 @@ section {
 .ribbon {
     background-color: #252525;
     color: #FFFFFF;
-    height: 65px;
+
     padding: 16px;
 }
 
@@ -84,11 +82,11 @@ section {
 }
 
 .height-lrg {
-  height: 200px;
+  min-height: 200px;
 }
 
 .row {
-  padding-left: 1em;
+  /*padding-left: 1em;*/
 }
 
 .terminal {
