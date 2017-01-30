@@ -29,13 +29,23 @@ h6,
   line-height: 1.1;
   color: inherit;
 }
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+
 /*===================================*/
 .jumbotron {
   margin-bottom: 0;
   background-color: #29abed;
   background: url(../img/background.png) no-repeat center center scroll;
   background-size: cover;
-  height: 450px;
+  min-height: 450px;
   color: #fff;
 }
 
@@ -97,14 +107,6 @@ section {
 .cta {
   color: #def;
 
-}
-
-.cta h1 {
-  font-weight: bold;
-}
-
-.cta h2 {
-  font-weight: bold;
 }
 
 .sponsor {
