@@ -41,6 +41,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway|Inconsolata" rel="stylesheet">
+<!-- Bootstrap photo gallery plugin -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.min.css">
+
 <link rel="stylesheet" href="css/styles.css">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -314,28 +317,16 @@
   </div>
 
 <div class="row">
-  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 1" href="#"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
-  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 2" href="#"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
-  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 3" href="#"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
-  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 4" href="#"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
-</div>
-<div class="row">
-  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 5" href="#"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
-  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 6" href="#"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
-  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 8" href="#"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
-  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 9" href="#"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
-</div>
-<div class="row">
-  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 10" href="#"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
-  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 11" href="#"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
-  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 12" href="#"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
-  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 13" href="#"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
+  <div class="col-lg-3 col-sm-4 col-xs-6"><a data-toggle="lightbox" title="Image 1" href="img/gallery/img1.jpg"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
+  <div class="col-lg-3 col-sm-4 col-xs-6"><a data-toggle="lightbox" title="Image 1" href="img/gallery/img1.jpg"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
+  <div class="col-lg-3 col-sm-4 col-xs-6"><a data-toggle="lightbox" title="Image 1" href="img/gallery/img1.jpg"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
+  <div class="col-lg-3 col-sm-4 col-xs-6"><a data-toggle="lightbox" title="Image 1" href="img/gallery/img1.jpg"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
 </div>
 
 <p class="text-center">Photography by <a href="https://www.facebook.com/CodySchroederPhotography" target="_blank">Cody Schroeder</a></p>
 
 
-<div tabindex="-1" class="modal fade" id="myModal" role="dialog">
+<!-- <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
   <div class="modal-dialog">
   <div class="modal-content">
     <div class="modal-header">
@@ -348,7 +339,7 @@
   </div>
    </div>
   </div>
-</div>
+</div> -->
 
 </div>
 <!-- end of gallery -->
@@ -414,7 +405,7 @@
 <!-- Include all compiled Latest compiled and minified JavaScript as needed -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<script>
+<!-- <script>
 $(document).ready(function() {
   $('.thumbnail').click(function(){
     $('.modal-body').empty();
@@ -425,8 +416,16 @@ $(document).ready(function() {
     $('#myModal').modal({show:true});
   });
 });
-</script>
+</script> -->
 
+<!-- Bootstrap photo gallery plugin-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.min.js"></script>
+<script>
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
+</script>
 
 <script>
 // Analytics
