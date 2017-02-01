@@ -317,10 +317,10 @@
   </div>
 
 <div class="row">
-  <div class="col-lg-3 col-sm-4 col-xs-6"><a data-toggle="lightbox" title="Image 1" href="img/gallery/img1.jpg"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
-  <div class="col-lg-3 col-sm-4 col-xs-6"><a data-toggle="lightbox" title="Image 1" href="img/gallery/img1.jpg"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
-  <div class="col-lg-3 col-sm-4 col-xs-6"><a data-toggle="lightbox" title="Image 1" href="img/gallery/img1.jpg"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
-  <div class="col-lg-3 col-sm-4 col-xs-6"><a data-toggle="lightbox" title="Image 1" href="img/gallery/img1.jpg"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
+  <div class="col-lg-3 col-sm-4 col-xs-6"><a data-toggle="lightbox" data-gallery="2016-gallery" title="Image 1" href="img/gallery/img1.jpg"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
+  <div class="col-lg-3 col-sm-4 col-xs-6"><a data-toggle="lightbox" data-gallery="2016-gallery" title="Image 1" href="img/gallery/img1.jpg"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
+  <div class="col-lg-3 col-sm-4 col-xs-6"><a data-toggle="lightbox" data-gallery="2016-gallery" title="Image 1" href="img/gallery/img1.jpg"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
+  <div class="col-lg-3 col-sm-4 col-xs-6"><a data-toggle="lightbox" data-gallery="2016-gallery" title="Image 1" href="img/gallery/img1.jpg"><img class="thumbnail img-responsive" src="img/gallery/img1.jpg"></a></div>
 </div>
 
 <p class="text-center">Photography by <a href="https://www.facebook.com/CodySchroederPhotography" target="_blank">Cody Schroeder</a></p>
@@ -423,7 +423,9 @@ $(document).ready(function() {
 <script>
 $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     event.preventDefault();
-    $(this).ekkoLightbox();
+    $(this).ekkoLightbox({
+      alwaysShowClose: true
+    });
 });
 </script>
 
