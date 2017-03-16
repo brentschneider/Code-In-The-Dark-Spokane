@@ -39,7 +39,14 @@ h6,
 	height: 0;
 	}
 
+
+.highlight {
+  color:#1b047c; 
+  font-weight: bold;
+  background-color: rgba(255,255,0, 0.7);
+}
 /*===================================*/
+
 .jumbotron {
   margin-bottom: 0;
   background-color: #29abed;
@@ -49,11 +56,11 @@ h6,
   color: #fff;
 }
 
+/* adding extra spacing */
 
-/*adding extra spacing*/
 section {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 2.2em;
+  padding-bottom: 2.5em;
   background: #000;
 }
 
@@ -69,7 +76,7 @@ section {
 
 .footer-below {
     padding: 25px 0;
-    background-color: #344250;
+    background-color: #1e1e1e;
 }
 
 .image-bg-fixed-height {
@@ -79,7 +86,8 @@ section {
 
 }
 
-/* custom sections*/
+/* custom sections */
+
 .ribbon {
     background-color: #252525;
     color: #FFFFFF;
@@ -111,6 +119,11 @@ section {
 
 .sponsor {
     background: #18BC9C;
+    color: #fff;
+}
+
+.CoC {
+    background: #ed33ed;
     color: #fff;
 }
 .space {
@@ -151,6 +164,35 @@ section {
 /*===================================*/
 /*Section headers*/
 
+
+hr.star-bright {
+    border-color: #fff;
+}
+hr.star-bright:after {
+    background-color: #ed33ed;
+    color: #fff;
+}
+hr.star-bright {
+    padding: 0;
+    border: none;
+    border-top: #fff solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+hr.star-bright:after {
+    content: "\f184";
+    font-family: FontAwesome;
+    display: inline-block;
+    border: #fff;
+    position: relative;
+    top: -18px;
+    font-size: 2em;
+    padding: 0 .25em;
+}
+
+/*------*/
+
 hr.star-light {
     border-color: #fff;
 }
@@ -176,7 +218,8 @@ hr.star-light:after {
     font-size: 2em;
     padding: 0 .25em;
 }
-
+  
+  /*------*/
 
 hr.star-dark {
     border-color: #fff;
@@ -185,7 +228,6 @@ hr.star-dark:after {
     background-color: #fff;
     color: #333;
 }
-
 hr.star-dark {
     padding: 0;
     border: none;
@@ -208,7 +250,7 @@ hr.star-dark:after {
 
 
 /*===================================*/
-/*Hover over title sections*/
+/* Hover over title sections */
 
 .special-item {
     margin: 0 0 30px;
@@ -295,7 +337,7 @@ hr.star-dark:after {
 
 
 /*===================================*/
-/*Font awesome icons*/
+/* Font awesome icons */
 
 
 .fa {
